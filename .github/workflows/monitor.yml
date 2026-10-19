@@ -20,3 +20,6 @@ jobs:
 
       - name: Chạy collection từ Cloud
         run: postman collection run "59052222-6123f9be-fab7-406b-a9a8-f8b09d8baccf"
+        
+      - name: Chạy collection từ Cloud
+        run: postman collection run "59052222-6123f9be-fab7-406b-a9a8-f8b09d8baccf" -e "RestfulBooker_Env.postman_environment.json" -d "booking_data.csv"
